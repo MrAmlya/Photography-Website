@@ -1,0 +1,24 @@
+{% extends 'blog/base.html' %}
+
+{% block containt %}
+<br>
+<br>
+<br><br>
+<br>
+
+    <div class="card">
+        <form method = "post" enctype="multipart/form-data"> 
+            {% csrf_token %} 
+            {{ form.as_p }} 
+            <button type="submit">Upload</button> 
+        </form>
+    </div>
+     
+
+    
+
+<br>
+<br>
+<br>
+
+    {% endblock %}
