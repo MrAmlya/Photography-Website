@@ -40,4 +40,4 @@ virtualenv==20.0.10
 Werkzeug==0.16.0
 whitenoise==5.1.0
 wrapt==1.11.2
-Django==2.2.4
+Django==2.2.24
